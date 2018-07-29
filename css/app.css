@@ -1,0 +1,254 @@
+/* !Windows Phone 8 */
+@-ms-viewport {
+  width: 100%;
+  height: device-height;
+}
+
+@viewport {
+  width: 100%;
+  height: device-height;
+}
+
+
+/* Font */
+@font-face {
+  font-family: rsregular;
+  src: url('font/adobegaramond.ttf');
+}
+
+@font-face {
+  font-family: rsmedium;
+  src: url('font/adobegaramond.ttf');
+}
+
+@font-face {
+  font-family: rsbold;
+  src: url('font/adobegaramond.ttf');
+}
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    /* Recommended for Windows 8 Phone */
+    /* SOURCE: http://www.excellentwebworld.com/common-problems-solution-for-windows-phone-8-phonegap */
+    -ms-touch-action: pan-x ;
+
+    width: 100vw;
+    height: 100vh;
+    overflow: none;
+}
+
+body {
+    -webkit-touch-callout: none ;
+    -webkit-text-size-adjust: none ; -ms-text-size-adjust: none ;
+    -webkit-user-select: none ; -moz-user-select: none ; -ms-user-select: none ; user-select: none ;
+    -webkit-highlight: none ;
+    -webkit-tap-highlight-color: rgba(0,0,0,0) ;
+    -webkit-tap-highlight-color: transparent ;      /* For some Androids */
+
+    /* Recommended for Windows 8 Phone */
+    /* SOURCE: http://www.excellentwebworld.com/common-problems-solution-for-windows-phone-8-phonegap */
+    -ms-touch-action: pan-y ;
+    -ms-content-zooming: none ;
+
+    -ms-overflow-style: none !important;
+    -ms-scroll-translation: vertical-to-horizontal;
+
+    width: 100vw;
+    height: 100vh;
+    overflow: none;
+
+    font-family: rsregular;
+    font-size: 85%;
+    background-color: white;
+    color: black;
+}
+
+
+
+
+
+input, textarea  {
+    /* allow copy-paste */
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+}
+
+button {
+  width: 100%;
+ 
+
+  border: none;
+  outline: none;
+
+  font-family: openregular;
+  background-color: transparent;
+  font-size: 100%;
+
+  
+}
+
+p {
+    padding-top: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.scrollable-y {
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  overflow-x: hidden;
+}
+
+.scrollable-x {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+
+
+
+/******* Seiten Controles ******/
+.next {
+    position: fixed;
+    width: 30vw;
+    height: 100vh;
+    right: 0;
+    z-index: 999999;
+}
+
+.prev {
+    position: fixed;
+    width: 30vw;
+    height: 100vh;
+    left: 0;
+    z-index: 999999;
+}
+
+
+
+body{ 
+    
+    
+   }
+.page {
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+
+
+/************Grid****************/
+
+.gabor{background-color: black}
+.h4{height: 4vh;}
+.h5{height: 5vh;}
+.h10{height: 10vh;}
+.h20{height: 20vh;}
+.h30{height: 30vh;}
+.h50{height: 50vh;}
+.h60{height: 60vh;}
+.h80{height: 80vh;}
+.h90{height: 90vh;}
+.h100{height: 100vh;}
+.w100{width: 100vw}
+.w75{width: 75vw}
+.w50{width: 50vw}
+.w25{width: 25vw}
+.w20{width: 20vw}
+.padding {padding:5vw;}
+
+.flex{
+    
+    display: flex; /*das startet daa flexsystem */
+    
+}
+.f1 {flex: 1;}
+.f2 {flex: 2;}
+.f3 {flex: 3;}
+
+
+/***** Astyles für Typo ********/
+.center {text-align: center;}
+.right {text-align: right;}
+.left {text-align: left;}
+.text-white {color: white;}
+.font2 {font-size: 150%;}
+
+
+.floatc {
+}
+
+
+
+
+/************ hier sind alle Hirergründe ********************/
+.bkgr-impressum {
+    background-image: url(../Images/bkgr_text2.png);
+    background-size: cover;
+}
+
+.bkgr-fire {
+    background-image: url(../Images/fire.gif);
+    background-size: cover;
+}
+ 
+
+.bkgr-feuer {
+    background-image: url(../Images/feuer.png);
+background-position: center;
+}
+
+.bkg-index {
+    background-image: url(../Images/index.png);
+    background-size: cover;
+
+}
+
+.bkg-spucktetill {
+    background-image: url(../Images/spucktetill.png);
+    background-size: cover;
+
+}
+
+.bkg-seite3 {
+    background-image: url(../Images/nochmehrseiten.png);
+    background-size: cover;
+
+}
+
+.bkg-seite4 {
+    background-image: url(../Images/spucktetill.png);
+    background-size: cover;
+
+}
+
+
+
+.pagebutton1{ 
+    
+    border-radius: 50vw;
+border: 1vw solid red;
+color: red;}
+
+
+.image{
+background-size: cover;
+background-position: center;
+}
+
+/************Grid****************
+
+
+
