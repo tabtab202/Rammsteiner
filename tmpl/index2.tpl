@@ -4,7 +4,7 @@
     data-animate="ease-out"></div>
 
 
-<button class="contentbox h80 w100">
+<button class="contentbox h100 w100">
     <img class="w100 h100" src="images/index.png">
 </button>
     

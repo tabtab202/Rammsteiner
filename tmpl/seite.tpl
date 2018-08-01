@@ -1,6 +1,6 @@
 <div class="next pageBtn" data-page="seite2" data-direction="left" data-duration="1"
     data-animate="ease-out"></div>
-<div class="prev pageBtn" data-page="index" data-direction="right" data-duration="1"
+<div class="prev pageBtn" data-page="index2" data-direction="right" data-duration="1"
     data-animate="ease-out"></div>
 
 
