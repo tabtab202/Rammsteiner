@@ -8,7 +8,7 @@
 
 <button class="w100 h100 bkgr-fire">
     
-<img class="w100 h100" src="Images/feuer.png">
+<img class="w100 h100" src="images/feuer.png">
 
     
 </button>

@@ -6,5 +6,5 @@
 
 
 <button class="contentbox h80 w100">
-    <img class="w100 h100" src="Images/seite2.png">
+    <img class="w100 h100" src="images/seite2.png">
 </button>
