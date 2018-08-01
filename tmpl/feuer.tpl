@@ -4,9 +4,9 @@
     data-animate="ease-out"></div>
 
     <div class="w100 h100 bkgr-firexxxx">
-        
+       <div class="w50 h50 bkgr-feuer"></div>
+
         <img class="w100 h100" src="images/fire.gif" />
-<!--        <div class="w50 h50 bkgr-feuer"></div>-->
     </div>
     
 

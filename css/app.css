@@ -195,19 +195,24 @@ body{
 
 /************ hier sind alle Hirergründe ********************/
 .bkgr-impressum {
-    background-image: url(../Images/bkgr_text2.png);
+    background-image: url(../images/bkgr_text2.png);
     background-size: cover;
 }
 
 .bkgr-fire {
-    background-image: url(../Images/fire.gif);
+    background-image: url(../images/fire.gif);
     background-size: cover;
 }
  
 
 .bkgr-feuer {
-    background-image: url(../Images/feuer.png);
-background-position: center;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../images/feuer.png);
+    background-position: center center;
+    background-size: 30vw auto;
+    background-repeat: no-repeat;
 }
 
 .bkg-index {
