@@ -12,6 +12,6 @@
     <img class="w25" src="images/rammsteinlogowhite.png">
 </button>
 
-<button class="pageBtn h20" data-page="index" data-direction="left" data-duration="1"  data-animate="ease-out">
+<button class="pageBtn h20" data-page="index2" data-direction="left" data-duration="1"  data-animate="ease-out">
         <img class="h4" src="images/pfeil.png">
 </button>
