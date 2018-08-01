@@ -23,4 +23,51 @@
     </platform>
     <engine name="android" spec="~6.3.0" />
     <plugin name="cordova-plugin-whitelist" spec="1" />
+
+
+<platform name="android">
+
+  <splash src="res/screen/android/landscape-xxhdpi.png" density="land-xxhdpi"/>
+    <splash src="res/screen/android/hdpi.png" density="port-hdpi"/>
+  <splash src="res/screen/android/ldpi.png" density="port-ldpi"/>
+  <splash src="res/screen/android/mdpi.png" density="port-mdpi"/>
+  <splash src="res/screen/android/xhdpi.png" density="port-xhdpi"/>
+  <splash src="res/screen/android/xxhdpi.png" density="port-xxhdpi"/>
+
+  
+
+  <icon platform="android" qualifier="ldpi" src="res/icon/android/ldpi.png" />
+  <icon platform="android" qualifier="mdpi" src="res/icon/android/mdpi.png" />
+  <icon platform="android" qualifier="hdpi" src="res/icon/android/hdpi.png" />
+  <icon platform="android" qualifier="xhdpi" src="res/icon/android/xhdpi.png" />
+  <icon platform="android" qualifier="xxhdpi" src="res/icon/android/xxhdpi.png" />
+  <icon platform="android" qualifier="fr-xxhdpi" src="res/icon/android/fr-xxhdpi.png" />
+
+</platform>
+
+    
+<splash src="splash.png" />
+<splash platform="ios" height="480" src="res/screen/ios/Default.png" width="320" />
+<splash platform="ios" height="960" src="res/screen/ios/Default@2x.png" width="640" />
+<splash platform="ios" height="1136" src="res/screen/ios/Default-568h@2x.png" width="640" />
+<splash platform="ios" height="1334" src="res/screen/ios/Default-667h@2x.png" width="750" />
+<splash platform="ios" height="2208" src="res/screen/ios/Default-Portrait-736h@3x.png" width="1242" />
+<splash platform="ios" height="1242" src="res/screen/ios/Default-Landscape-736h@3x.png" width="2208" />
+<icon platform="ios" height="180" src="res/icon/ios/icon-60@3x.png" width="180" />
+<icon platform="ios" height="60" src="res/icon/ios/icon-60.png" width="60" />
+<icon platform="ios" height="120" src="res/icon/ios/icon-120.png" width="120" />
+<icon platform="ios" height="120" src="res/icon/ios/icon-60@2x.png" width="120" />
+<icon platform="ios" height="76" src="res/icon/ios/icon-76.png" width="76" />
+<icon platform="ios" height="152" src="res/icon/ios/icon-76@2x.png" width="152" />
+<icon platform="ios" height="29" src="res/icon/ios/icon-small.png" width="29" />
+<icon platform="ios" height="58" src="res/icon/ios/icon-small@2x.png" width="58" />
+<icon platform="ios" height="40" src="res/icon/ios/icon-40.png" width="40" />
+<icon platform="ios" height="80" src="res/icon/ios/icon-40@2x.png" width="80" />
+<icon platform="ios" height="57" src="res/icon/ios/icon-57.png" width="57" />
+
+
+
+
+
+
 </widget>
